@@ -37,7 +37,7 @@ const App: React.FC = () => {
             <div className="bg-blue-600 p-2 rounded-lg">
               <BarChart3 className="text-white h-6 w-6" />
             </div>
-            <h1 className="text-xl font-bold text-gray-900 tracking-tight">李蓓资产组合跟踪</h1>
+            <h1 className="text-xl font-bold text-gray-900 tracking-tight">Libei's Portfolios Tracker>Libe
           </div>
           
           <div className="flex items-center space-x-4">

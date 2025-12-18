@@ -51,7 +51,7 @@ export const FundCard: React.FC<FundCardProps> = ({ fund }) => {
 
       <div className="mt-4 flex justify-between items-end">
         <div>
-          <p className="text-xs text-gray-500 mb-1">最新净值 ({fund.latestDate})</p>
+          <p className="text-xs text-gray-500 mb-1">最新股价 ({fund.latestDate})</p>
           <p className="text-2xl font-semibold text-gray-900">{fund.latestNav.toFixed(4)}</p>
         </div>
         <div className="text-right">

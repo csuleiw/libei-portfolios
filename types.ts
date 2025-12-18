@@ -16,11 +16,16 @@ export interface Fund {
 
 // Configuration for the funds we want to track
 export const TRACKED_FUNDS = [
-  { code: '588000', name: '科创50ETF' },
-  { code: '515980', name: '人工智能ETF' },
-  { code: '515100', name: '红利ETF' },
-  { code: '515030', name: '新能源车ETF' },
-  { code: '159338', name: '信创ETF' },
+  { code: '601186', name: '中国铁建' },
+  { code: '601390', name: '中国中铁' },
+  { code: '600048', name: '保利发展' },
+  { code: '001979', name: '招商蛇口' },
+  { code: '600585', name: '海螺水泥' },
+  { code: '600887', name: '伊利股份' },
+  { code: '600690', name: '海尔智家' },
+  { code: '601225', name: '陕西煤业' },
+  { code: '601088', name: '中国神华' },
+  { code: '601600', name: '中国铝业' },
 ];
 
 // Baseline date for calculation (Correcting 2025 to 2024 for realistic context)

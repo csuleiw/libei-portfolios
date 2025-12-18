@@ -62,9 +62,9 @@ const App: React.FC = () => {
         
         {/* Intro Section */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-800">基金每日净值追踪</h2>
+          <h2 className="text-2xl font-bold text-gray-800">李蓓资产租户追踪</h2>
           <p className="text-gray-500 mt-1">
-            自动统计指定ETF基金自 {BASELINE_DATE} 以来的累计涨跌幅。
+            自动统计指定股票自 {BASELINE_DATE} 以来的累计涨跌幅。
             <span className="inline-block ml-2 text-xs bg-orange-50 text-orange-600 px-2 py-0.5 rounded-full border border-orange-100">
               数据源: 东方财富 (Eastmoney API)
             </span>
